@@ -1,0 +1,4 @@
+<map id="CGameSettingsMenu::LoadMapData" name="CGameSettingsMenu::LoadMapData">
+<area shape="rect" id="node1" title="Load data from chosen file to our map array, that will be retrieved by MapContainer in a future." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$classCBlock.html#add32b563a6e910091af5a7a6710c92ca" title="Converts type of block to printable symbol." alt="" coords="220,13,384,39"/>
+</map>

@@ -1,0 +1,3 @@
+Pocet kostek:
+Velikosti:
+Nespravny vstup.

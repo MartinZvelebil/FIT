@@ -1,0 +1,11 @@
+<map id="CPosition::GetYPosition" name="CPosition::GetYPosition">
+<area shape="rect" id="node1" title=" " alt="" coords="684,82,859,109"/>
+<area shape="rect" id="node2" href="$classCAIPlayer.html#a5e6f39de3b63341b62054fd78212cee6" title="Calculate BFS and move the best direction possible. It is working in different direction (finding pat..." alt="" coords="197,32,343,58"/>
+<area shape="rect" id="node4" href="$classCBomb.html#af844a0c1b6f02763d30043cb1643b1ce" title="Generating the flame effect of bomb (handling walls etc.)" alt="" coords="443,32,598,58"/>
+<area shape="rect" id="node5" href="$classCPlayer.html#a880c76f8fc694de5bcdec60837a0837a" title="Function reading user input based on which user wanted to move. Creating controls vector based on pla..." alt="" coords="439,133,602,160"/>
+<area shape="rect" id="node7" href="$classCMapContainer.html#ae4bef5dbecc488fdfd0d064c261a9961" title="Decide, where will players, ghosts, enemy etc. spawn based on map structure (clever spawning of ghost..." alt="" coords="405,184,636,210"/>
+<area shape="rect" id="node9" href="$classCAIPlayer.html#ace409e60eda0ae6c08f8cd79d3b8bd3e" title="Function is used, when BFS Couldn&#39;t find any possible way between players." alt="" coords="419,82,622,109"/>
+<area shape="rect" id="node3" href="$classCAIPlayer.html#a4a3b7d4cc43e3b3ded213ae191dfc70b" title="When AI changes position, this method manage it + is responsible for checking if the move is possible..." alt="" coords="5,32,135,58"/>
+<area shape="rect" id="node6" href="$classCPlayer.html#ac67ecebfb4b30f41a7f37dbc6eb7b874" title="When user changes position, this method manage it + is responsible for checking if the move is possib..." alt="" coords="212,133,328,160"/>
+<area shape="rect" id="node8" href="$classCMainMenu.html#ab969842c59bbaff6fbececc6b0c9b69a" title="Render main menu (start of game)" alt="" coords="183,184,357,210"/>
+</map>

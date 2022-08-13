@@ -1,0 +1,5 @@
+<map id="CMainMenu::HelpMenu" name="CMainMenu::HelpMenu">
+<area shape="rect" id="node1" title="Printing help/controls for user." alt="" coords="5,31,179,57"/>
+<area shape="rect" id="node2" href="$classCUserMenu.html#a8cefff436235de63ddfe8f1672b4b5a9" title="Prints menu and check, if user&#39;s input is valid." alt="" coords="229,5,415,32"/>
+<area shape="rect" id="node3" href="$classCBanner.html#a69bbec9b00f5fdd02fcd9019371216c5" title="Prints ASCII art HELP (Font Slant) Credits to: https://patorjk.com/software/taag/#p=display&amp;f=Graffit..." alt="" coords="227,56,417,83"/>
+</map>

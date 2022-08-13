@@ -1,0 +1,8 @@
+<map id="CPlayerStats::CheckBombsAvailable" name="CPlayerStats::CheckBombsAvailable">
+<area shape="rect" id="node1" title=" " alt="" coords="588,23,787,65"/>
+<area shape="rect" id="node2" href="$classCPlayer.html#a880c76f8fc694de5bcdec60837a0837a" title="Function reading user input based on which user wanted to move. Creating controls vector based on pla..." alt="" coords="377,5,539,32"/>
+<area shape="rect" id="node4" href="$classCAIPlayer.html#a203076816ebe38623465b412408274ec" title="Handle if planting bomb is possible and if so creates new bomb object, plants bomb." alt="" coords="376,56,540,83"/>
+<area shape="rect" id="node3" href="$classCPlayer.html#ac67ecebfb4b30f41a7f37dbc6eb7b874" title="When user changes position, this method manage it + is responsible for checking if the move is possib..." alt="" coords="197,5,313,32"/>
+<area shape="rect" id="node5" href="$classCAIPlayer.html#a5e6f39de3b63341b62054fd78212cee6" title="Calculate BFS and move the best direction possible. It is working in different direction (finding pat..." alt="" coords="183,56,328,83"/>
+<area shape="rect" id="node6" href="$classCAIPlayer.html#a4a3b7d4cc43e3b3ded213ae191dfc70b" title="When AI changes position, this method manage it + is responsible for checking if the move is possible..." alt="" coords="5,56,135,83"/>
+</map>

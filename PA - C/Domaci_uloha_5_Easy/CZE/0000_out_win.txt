@@ -1,0 +1,6 @@
+Vstupni posloupnost:
+Testovane hodnoty:
+> Soucet 6 lze dosahnout.
+> Soucet 39 lze dosahnout.
+> Soucet 3000 nelze dosahnout.
+> Soucet -400 nelze dosahnout.

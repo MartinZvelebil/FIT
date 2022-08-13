@@ -1,0 +1,5 @@
+<map id="CGhost::CreatePtr" name="CGhost::CreatePtr">
+<area shape="rect" id="node1" title="Overriding polymorphic method." alt="" coords="507,5,645,32"/>
+<area shape="rect" id="node2" href="$classCMapContainer.html#ae4bef5dbecc488fdfd0d064c261a9961" title="Decide, where will players, ghosts, enemy etc. spawn based on map structure (clever spawning of ghost..." alt="" coords="228,5,459,32"/>
+<area shape="rect" id="node3" href="$classCMainMenu.html#ab969842c59bbaff6fbececc6b0c9b69a" title="Render main menu (start of game)" alt="" coords="5,5,180,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="CGameSettingsMenu::LoadMapData" name="CGameSettingsMenu::LoadMapData">
+<area shape="rect" id="node1" title="Load data from chosen file to our map array, that will be retrieved by MapContainer in a future." alt="" coords="220,5,387,47"/>
+<area shape="rect" id="node2" href="$classCGameSettingsMenu.html#a7c8e78c05c4444cfeaa73826d683f502" title="Decides for user, which map he is going to play." alt="" coords="5,5,172,47"/>
+</map>

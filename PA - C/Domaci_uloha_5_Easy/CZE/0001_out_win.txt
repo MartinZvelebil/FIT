@@ -1,0 +1,7 @@
+Vstupni posloupnost:
+Testovane hodnoty:
+> Soucet 20 nelze dosahnout.
+> Soucet 40 nelze dosahnout.
+> Soucet -10 lze dosahnout.
+> Soucet 30 lze dosahnout.
+> Soucet -80 nelze dosahnout.

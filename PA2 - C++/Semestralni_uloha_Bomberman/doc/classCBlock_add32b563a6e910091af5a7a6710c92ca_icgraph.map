@@ -1,0 +1,19 @@
+<map id="CBlock::GetBlockChar" name="CBlock::GetBlockChar">
+<area shape="rect" id="node1" title="Converts type of block to printable symbol." alt="" coords="684,330,848,357"/>
+<area shape="rect" id="node2" href="$classCMapContainer.html#ada274c140f101e7dd4f2dd43ef4e1771" title="Adding bombs to the map + controlling the explosion." alt="" coords="407,5,634,47"/>
+<area shape="rect" id="node3" href="$classCMapContainer.html#a992a6548a3a39215c6d245cea39d1b1b" title="Adding monsters to the map + handling collisions of players and ghosts." alt="" coords="407,71,634,112"/>
+<area shape="rect" id="node4" href="$classCAIPlayer.html#a5e6f39de3b63341b62054fd78212cee6" title="Calculate BFS and move the best direction possible. It is working in different direction (finding pat..." alt="" coords="197,279,343,306"/>
+<area shape="rect" id="node6" href="$classCBomb.html#a8a6703ff56dc295acbe3e93963cb1a05" title="Contructor for new bomb object." alt="" coords="459,187,583,214"/>
+<area shape="rect" id="node7" href="$classCBomb.html#af844a0c1b6f02763d30043cb1643b1ce" title="Generating the flame effect of bomb (handling walls etc.)" alt="" coords="443,238,598,265"/>
+<area shape="rect" id="node8" href="$classCMapContainer.html#a5019e96ad966471e936d0d184953fe52" title="Generating the flame + destroying things around." alt="" coords="413,289,628,331"/>
+<area shape="rect" id="node9" href="$classCMapContainer.html#adca6d8dd441aea01e3b05a22363439a6" title="Handling bonuses on the map, based on their visibility at the moment (it means you can&#39;t pickup bonus..." alt="" coords="405,355,636,396"/>
+<area shape="rect" id="node10" href="$classCPlayer.html#a880c76f8fc694de5bcdec60837a0837a" title="Function reading user input based on which user wanted to move. Creating controls vector based on pla..." alt="" coords="439,471,602,498"/>
+<area shape="rect" id="node12" href="$classCGameSettingsMenu.html#a65162e72eed6257ff155390ce5570316" title="Load data from chosen file to our map array, that will be retrieved by MapContainer in a future." alt="" coords="437,523,604,564"/>
+<area shape="rect" id="node14" href="$classCMapContainer.html#ae4bef5dbecc488fdfd0d064c261a9961" title="Decide, where will players, ghosts, enemy etc. spawn based on map structure (clever spawning of ghost..." alt="" coords="405,589,636,615"/>
+<area shape="rect" id="node16" href="$classCAIPlayer.html#ace409e60eda0ae6c08f8cd79d3b8bd3e" title="Function is used, when BFS Couldn&#39;t find any possible way between players." alt="" coords="419,421,622,447"/>
+<area shape="rect" id="node17" href="$classCMapContainer.html#a06e21c7bfb19bfd0fa3eb738a51de042" title="Clears console and render map with changed data, also is responsible for colisions,..." alt="" coords="419,639,623,666"/>
+<area shape="rect" id="node5" href="$classCAIPlayer.html#a4a3b7d4cc43e3b3ded213ae191dfc70b" title="When AI changes position, this method manage it + is responsible for checking if the move is possible..." alt="" coords="5,279,135,306"/>
+<area shape="rect" id="node11" href="$classCPlayer.html#ac67ecebfb4b30f41a7f37dbc6eb7b874" title="When user changes position, this method manage it + is responsible for checking if the move is possib..." alt="" coords="212,471,328,498"/>
+<area shape="rect" id="node13" href="$classCGameSettingsMenu.html#a7c8e78c05c4444cfeaa73826d683f502" title="Decides for user, which map he is going to play." alt="" coords="187,523,353,564"/>
+<area shape="rect" id="node15" href="$classCMainMenu.html#ab969842c59bbaff6fbececc6b0c9b69a" title="Render main menu (start of game)" alt="" coords="183,614,357,641"/>
+</map>

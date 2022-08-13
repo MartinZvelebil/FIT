@@ -1,0 +1,3 @@
+/mnt/c/Users/marti/CLionProjects/hw01_huffmanuv_kod/cmake-build-debug/CMakeFiles/hw01_huffmanuv_kod.dir
+/mnt/c/Users/marti/CLionProjects/hw01_huffmanuv_kod/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marti/CLionProjects/hw01_huffmanuv_kod/cmake-build-debug/CMakeFiles/rebuild_cache.dir

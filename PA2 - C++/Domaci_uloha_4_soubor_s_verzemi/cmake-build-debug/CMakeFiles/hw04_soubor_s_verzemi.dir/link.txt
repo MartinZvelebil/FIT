@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hw04_soubor_s_verzemi.dir/main.cpp.o -o hw04_soubor_s_verzemi 

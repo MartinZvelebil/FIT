@@ -1,0 +1,4 @@
+<map id="CGameSettingsMenu::GetMapData" name="CGameSettingsMenu::GetMapData">
+<area shape="rect" id="node1" title="Called from MapContainer to retrieve pure, not changed data. At this point, we will never have modifi..." alt="" coords="228,5,395,47"/>
+<area shape="rect" id="node2" href="$classCMainMenu.html#ab969842c59bbaff6fbececc6b0c9b69a" title="Render main menu (start of game)" alt="" coords="5,13,180,39"/>
+</map>

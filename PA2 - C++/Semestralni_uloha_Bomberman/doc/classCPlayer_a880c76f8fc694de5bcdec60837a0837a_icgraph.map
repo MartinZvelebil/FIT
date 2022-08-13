@@ -1,0 +1,4 @@
+<map id="CPlayer::HandleMove" name="CPlayer::HandleMove">
+<area shape="rect" id="node1" title="Function reading user input based on which user wanted to move. Creating controls vector based on pla..." alt="" coords="169,5,332,32"/>
+<area shape="rect" id="node2" href="$classCPlayer.html#ac67ecebfb4b30f41a7f37dbc6eb7b874" title="When user changes position, this method manage it + is responsible for checking if the move is possib..." alt="" coords="5,5,121,32"/>
+</map>

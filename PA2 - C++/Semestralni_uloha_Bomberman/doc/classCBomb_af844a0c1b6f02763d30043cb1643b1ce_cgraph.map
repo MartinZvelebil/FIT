@@ -1,0 +1,7 @@
+<map id="CBomb::FlameEffect" name="CBomb::FlameEffect">
+<area shape="rect" id="node1" title="Generating the flame effect of bomb (handling walls etc.)" alt="" coords="5,81,160,108"/>
+<area shape="rect" id="node2" href="$classCPosition.html#a098615f7aefcc0405d4c346c70a6b940" title=" " alt="" coords="208,5,400,32"/>
+<area shape="rect" id="node3" href="$classCBlock.html#add32b563a6e910091af5a7a6710c92ca" title="Converts type of block to printable symbol." alt="" coords="222,56,386,83"/>
+<area shape="rect" id="node4" href="$classCPosition.html#ac55e91406e3b04e1fa9960d9d935dff7" title=" " alt="" coords="217,107,391,133"/>
+<area shape="rect" id="node5" href="$classCPosition.html#a49b0dc00e42f2f2f4d76ff0d46ff7c4e" title=" " alt="" coords="217,157,391,184"/>
+</map>

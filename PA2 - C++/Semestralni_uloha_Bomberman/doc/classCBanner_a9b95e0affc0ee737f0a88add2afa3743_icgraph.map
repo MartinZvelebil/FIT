@@ -1,0 +1,7 @@
+<map id="CBanner::PrintBannerGameSettings" name="CBanner::PrintBannerGameSettings">
+<area shape="rect" id="node1" title="Prints ASCII art GAME SETTINGS (Font Slant) Credits to: https://patorjk.com/software/taag/#p=display&amp;..." alt="" coords="443,71,643,112"/>
+<area shape="rect" id="node2" href="$classCGameSettingsMenu.html#ac3cc878803c48e3f2b081d16f45c474c" title="Create and handle user&#39;s nickname." alt="" coords="228,5,395,47"/>
+<area shape="rect" id="node3" href="$classCGameSettingsMenu.html#a8e3414794e56564768a17351d119d5cf" title="Create and handle menu for map creation." alt="" coords="228,71,395,112"/>
+<area shape="rect" id="node5" href="$classCGameSettingsMenu.html#a503bf54bc6f903ea42d16cfc7c42db70" title="Create and handle user&#39;s nickname." alt="" coords="228,136,395,177"/>
+<area shape="rect" id="node4" href="$classCMainMenu.html#ab969842c59bbaff6fbececc6b0c9b69a" title="Render main menu (start of game)" alt="" coords="5,78,180,105"/>
+</map>

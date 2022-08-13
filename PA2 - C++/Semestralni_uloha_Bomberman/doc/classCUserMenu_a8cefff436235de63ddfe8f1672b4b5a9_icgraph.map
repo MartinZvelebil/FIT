@@ -1,0 +1,8 @@
+<map id="CUserMenu::HandleMenu" name="CUserMenu::HandleMenu">
+<area shape="rect" id="node1" title="Prints menu and check, if user&#39;s input is valid." alt="" coords="455,129,641,156"/>
+<area shape="rect" id="node2" href="$classCMainMenu.html#adb2942a33bf54dff1723b4d4357c91dc" title="Printing help/controls for user." alt="" coords="231,5,404,32"/>
+<area shape="rect" id="node3" href="$classCGameSettingsMenu.html#ac3cc878803c48e3f2b081d16f45c474c" title="Create and handle user&#39;s nickname." alt="" coords="234,57,401,98"/>
+<area shape="rect" id="node4" href="$classCGameSettingsMenu.html#a8e3414794e56564768a17351d119d5cf" title="Create and handle menu for map creation." alt="" coords="234,122,401,163"/>
+<area shape="rect" id="node5" href="$classCMainMenu.html#ab969842c59bbaff6fbececc6b0c9b69a" title="Render main menu (start of game)" alt="" coords="5,159,180,185"/>
+<area shape="rect" id="node6" href="$classCMainMenu.html#a9cd05e8db5f915b6527e8c6f6f2fb716" title="Hall of fame printing." alt="" coords="228,239,407,265"/>
+</map>

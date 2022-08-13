@@ -1,0 +1,7 @@
+<map id="CAIPlayer::RandomizeMove" name="CAIPlayer::RandomizeMove">
+<area shape="rect" id="node1" title="Function is used, when BFS Couldn&#39;t find any possible way between players." alt="" coords="5,81,208,108"/>
+<area shape="rect" id="node2" href="$classCPosition.html#a098615f7aefcc0405d4c346c70a6b940" title=" " alt="" coords="256,5,448,32"/>
+<area shape="rect" id="node3" href="$classCBlock.html#add32b563a6e910091af5a7a6710c92ca" title="Converts type of block to printable symbol." alt="" coords="270,56,434,83"/>
+<area shape="rect" id="node4" href="$classCPosition.html#ac55e91406e3b04e1fa9960d9d935dff7" title=" " alt="" coords="265,107,439,133"/>
+<area shape="rect" id="node5" href="$classCPosition.html#a49b0dc00e42f2f2f4d76ff0d46ff7c4e" title=" " alt="" coords="265,157,439,184"/>
+</map>

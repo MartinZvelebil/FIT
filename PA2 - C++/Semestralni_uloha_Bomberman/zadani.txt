@@ -1,0 +1,81 @@
+Klasická hra Bomberman
+
+Implementujte následující varianty:
+
+-Pro alespoň 2 hráče na jednom počítači
+-Pro hru proti počítači
+
+Hra musí splňovat následující funkcionality:
+
+1) Načítání herních levelů (mapy) ze souboru (vytvořte vhodný formát)
+2) Sbírání konfigurovatelných bonusů (zvětšení plamenu, více bomb, odpalování bomb na dálku,...)
+3) Ukládání nejlepšího dosaženého skóre do souboru
+
+
+Bližší specifikace zadání
+-------------------------
+Implementace hry bomberman v terminálu, kdy hráč má na výběr hrát proti počítači nebo hrát proti kamarádovi na jednom počítači. 
+V obou těchto herních verzích jsou kromě hráčů na mapě také duchové, kdy při kontaktu s nimi hráčovi odeberou život. 
+Na úvod hráč projde hlavním menu, kde si může zobrazit TOP 9 výsledků v síni slávy, nápovědu (ovládání apod.) nebo začít hru (vždy volí možnosti 1-x). 
+V této základní části menu (předtím než uživatel stiskne na zahájení hry), tak má možnost se mezi jednotlivými menu vracet a nebo hru opustit.
+Po zahájení hry je uživatel proveden procesem herní inicializace. 
+Bude dotázán na svou přezdívku, pod kterou poté bude zobrazen v síni slávy. 
+V případě, že byla zvolena volba Hráč vs Hráč, tak se aplikace zeptá také na přezdívku druhého hráče.
+Po nastavení přezdívky bude uživatel dotázán na nastavení mapy (nechat si vybrat náhodnou nebo si zvolí sám) a poté hru spustí nebo má také poslední možnost hru opustit.
+Mapa musí splňovat:
+	- Soubor s mapou musí existovat, nesmí být prázdný, musí obsahovat po celém obvodu hranice ze znaku '#' (znak konfigurovatelný uvnitř CBlock.h), musí obsahovat na konci mapy newline
+	- Mapa všeobecně musí splňovat platné znaky viz. Block.h / Ukázka vzhledu mapy níže
+	- Mapa musí být čtvercového / obdelníkového tvaru
+	- Mapa musí být minimálně 20 znaků široká a 5 znaků vysoká
+	- Mapa musí být maximálně 100 znaků široká a 25 znaků vysoká
+	- V případě, že mapa obsahuje fatální chybu (chybějící ohraničení mapy, nečtvercový tvar apod.), mapa nebude načtena a bude vyhozena vyjímka
+	- V případě, že mapa obsahuje nefatální chybu (jiný znak, než-li je v dovolených znacích), tak bych sice hru mohl pustit a vnímat znak jako mezeru, ale pro jistotu bude hra ukončena a vyhozena vyjímka
+Po úspěšném načtení mapy, tak se dle algoritmu, hledající nejdelší sekvenci na každé řádce (>5), kde určí trajektorii po které se bude pohybovat duch a dynamicky duchy vytvoří.
+Dle zvoleného druhu hry budou také vytvořeni hráči. (ovládání viz. sekce ovládání v 1. části menu)
+Ze začátku hry má každý hráč 3 životy a 3 bomby. 
+Na mapě jsou dostupné různé bonusy, které mohou zvětšit maximální počet bomb (a) nebo zvýšit dosah výbuchu bomby (O).
+Duchové mají 1 život, ovšem počet jejich životů může být lehce modifikovatelný. 
+Výhoda ducha je v tom, že může chodit také skrze rozbitné stěny a je odolný vůči kolizi s hráčem. Jediná cesta jak ducha zneškodnit je bombou. Sám duch bomby pokládat nemůže.
+Skóre uživatel získává za sbírání bonusů na mapě, položení bomby a nebo se na mapě nachází speciální bonusy v podobě '$', které skóre také zvyšují.
+Hra končí v situaci, kdy jeden z hráčů zemře na následky bomby (přijde o všechny 3 životy) popřípadě na následky kolize s duchem.
+Hráč, který zůstal naživu je označen za vítěze. Skóre obou hráčů je v takovou chvíli zapsáno do souboru assets/score.txt, který se poté čte v síni slávy.
+Hra kromě výše zmíněných situací umí ověřovat i mnoho hraničních případů, kdy například hráč začne s 0 bombami, situace kdy zemřou oba hráči najednou apod. (více viz. implementace)
+
+Využití polymorfismu
+-------------------------
+Polymorfismus je využíván mezi hráči a duchy. 
+Jak hráč tak duch má nadřazenou třídu CEntity, která označuje jakoukoliv "živou" entitu na mapě (ta má určitě nějakou pozici, počet životů a znak, který ji reprezentuje). 
+Obsahuje mimo jiné virtuální destruktor, virtuální metody na tvorbu unique_ptr (CreatePtr), virtuální metodu zajišťující reakci na zásah bombou nebo metodu, která se stará o pohyb entit, kdy duchové se mohou pohybovat i skrze rozbitelné zdi, ovšem hráč nikoliv.
+Z ní dědí třídy CPlayer (obyčejný hráč), CGhost a CAIPlayer (AI Hráč založený na BFS), které právě výše zmíněné virtuální metody přepisují pomocí override. 
+Hráč a AI Hráč obsahují ještě třídu CPlayerAtributes, uvnitř které jsou player-specific atributy a metody, které se udržují jako objekty paralelně s hráčem samotným v třídě CMapContainer. 
+
+
+Ukázka vzhledu mapy:
+------------------------
+###################################################
+#  P  :          :  :     :::            *        #
+# # # #:# # # # # #:# # # # # # # # # # #*# # # # #
+#  :         :::      O               ***b***     #
+# # # #:# #:# #:# #:# # # # # # # # # # #*# # # # #
+#      @   :     a     :                 *        #
+# # # # # #:# # # #:# # # # # # # # #*#*# # # # # #
+#    :   :   :::                    *****         #
+# # # # # # # # # # # # # # # # # #***b***# # # # #
+#:::    ::::       :::: ::::::::    *****::: :::: #
+# # # # # # # # # # # # # # # # # # #*#*# # # # # #
+#          @                         ::::::       #
+# # # # # # # # # # # # # # # # # # # # # # # # # #
+#                  @        ::::::::         E    #
+###################################################
+
+# - Nerozbitná stěna
+: - Rozbitná stěna
+@ - Duch
+b - Bomba
+* - Efekt výbuchu
+a - Přidá 1 bombu
+O - 2x větší výbuchy (Pouze 1x přítomné na mapě)
+P - Player
+E - Enemy
+
+-> Kromě @,b,*,E,P tak je zbytek v mapě pevně zakotven

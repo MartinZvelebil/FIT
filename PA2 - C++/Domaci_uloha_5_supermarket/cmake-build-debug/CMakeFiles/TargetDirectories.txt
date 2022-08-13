@@ -1,0 +1,3 @@
+/mnt/c/Users/marti/CLionProjects/hw05_supermarket/cmake-build-debug/CMakeFiles/hw05_supermarket.dir
+/mnt/c/Users/marti/CLionProjects/hw05_supermarket/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marti/CLionProjects/hw05_supermarket/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Domaci_uloha_8_Easy.dir/main.c.o -o Domaci_uloha_8_Easy  -lm 

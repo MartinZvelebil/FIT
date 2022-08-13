@@ -1,0 +1,6 @@
+<map id="CEntity" name="CEntity">
+<area shape="rect" id="node1" title="Polymorphic class representing players/ghosts." alt="" coords="115,5,184,32"/>
+<area shape="rect" id="node2" href="$classCAIPlayer.html" title="Class representing AI player." alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node3" href="$classCGhost.html" title="Represents ghosts." alt="" coords="115,80,184,107"/>
+<area shape="rect" id="node4" href="$classCPlayer.html" title="Represents Players." alt="" coords="208,80,280,107"/>
+</map>

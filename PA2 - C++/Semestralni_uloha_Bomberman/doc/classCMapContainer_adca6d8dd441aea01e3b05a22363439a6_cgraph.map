@@ -1,0 +1,4 @@
+<map id="CMapContainer::HandleBonusesOnMap" name="CMapContainer::HandleBonusesOnMap">
+<area shape="rect" id="node1" title="Handling bonuses on the map, based on their visibility at the moment (it means you can&#39;t pickup bonus..." alt="" coords="5,5,236,47"/>
+<area shape="rect" id="node2" href="$classCBlock.html#add32b563a6e910091af5a7a6710c92ca" title="Converts type of block to printable symbol." alt="" coords="284,13,448,39"/>
+</map>

@@ -1,0 +1,10 @@
+Vstupni posloupnost:
+Testovane hodnoty:
+> Soucet 0 nelze dosahnout.
+> Soucet 2 nelze dosahnout.
+> Soucet 4 lze dosahnout.
+> Soucet 6 nelze dosahnout.
+> Soucet 8 nelze dosahnout.
+> Soucet 10 nelze dosahnout.
+> Soucet 12 nelze dosahnout.
+> Soucet 14 nelze dosahnout.

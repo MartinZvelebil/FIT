@@ -1,0 +1,4 @@
+<map id="CGameSettingsMenu::LoadNickNameMenu" name="CGameSettingsMenu::LoadNickNameMenu">
+<area shape="rect" id="node1" title="Create and handle user&#39;s nickname." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$classCBanner.html#a9b95e0affc0ee737f0a88add2afa3743" title="Prints ASCII art GAME SETTINGS (Font Slant) Credits to: https://patorjk.com/software/taag/#p=display&amp;..." alt="" coords="220,5,420,47"/>
+</map>

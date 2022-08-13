@@ -1,0 +1,3 @@
+/mnt/c/Users/marti/CLionProjects/hw04_soubor_s_verzemi/cmake-build-debug/CMakeFiles/hw04_soubor_s_verzemi.dir
+/mnt/c/Users/marti/CLionProjects/hw04_soubor_s_verzemi/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marti/CLionProjects/hw04_soubor_s_verzemi/cmake-build-debug/CMakeFiles/rebuild_cache.dir

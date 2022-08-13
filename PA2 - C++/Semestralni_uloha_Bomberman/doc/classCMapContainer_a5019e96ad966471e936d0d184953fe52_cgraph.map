@@ -1,0 +1,4 @@
+<map id="CMapContainer::HandleBombExplosion" name="CMapContainer::HandleBombExplosion">
+<area shape="rect" id="node1" title="Generating the flame + destroying things around." alt="" coords="5,5,220,47"/>
+<area shape="rect" id="node2" href="$classCBlock.html#add32b563a6e910091af5a7a6710c92ca" title="Converts type of block to printable symbol." alt="" coords="268,13,432,39"/>
+</map>

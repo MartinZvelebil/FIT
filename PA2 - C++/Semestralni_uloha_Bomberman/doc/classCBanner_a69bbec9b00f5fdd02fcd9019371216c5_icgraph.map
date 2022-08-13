@@ -1,0 +1,4 @@
+<map id="CBanner::PrintBannerHelp" name="CBanner::PrintBannerHelp">
+<area shape="rect" id="node1" title="Prints ASCII art HELP (Font Slant) Credits to: https://patorjk.com/software/taag/#p=display&amp;f=Graffit..." alt="" coords="227,5,417,32"/>
+<area shape="rect" id="node2" href="$classCMainMenu.html#adb2942a33bf54dff1723b4d4357c91dc" title="Printing help/controls for user." alt="" coords="5,5,179,32"/>
+</map>
