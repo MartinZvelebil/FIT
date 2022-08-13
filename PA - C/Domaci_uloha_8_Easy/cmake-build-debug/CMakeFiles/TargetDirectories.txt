@@ -1,3 +1,0 @@
-/mnt/c/Users/marti/CLionProjects/C/Domaci_uloha_8_Easy/cmake-build-debug/CMakeFiles/Domaci_uloha_8_Easy.dir
-/mnt/c/Users/marti/CLionProjects/C/Domaci_uloha_8_Easy/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/marti/CLionProjects/C/Domaci_uloha_8_Easy/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Domaci_uloha_6_Easy.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Domaci_uloha_6_Easy.dir/objects.a @CMakeFiles\Domaci_uloha_6_Easy.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Domaci_uloha_6_Easy.dir/objects.a -Wl,--no-whole-archive -o Domaci_uloha_6_Easy.exe -Wl,--out-implib,libDomaci_uloha_6_Easy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Domaci_uloha_6_Easy.dir\linklibs.rsp

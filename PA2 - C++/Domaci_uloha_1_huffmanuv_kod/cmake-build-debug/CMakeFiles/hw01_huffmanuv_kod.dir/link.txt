@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/hw01_huffmanuv_kod.dir/main.cpp.o -o hw01_huffmanuv_kod 

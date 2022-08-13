@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/hw_07_indexovani_posloupnosti.dir/main.cpp.o -o hw_07_indexovani_posloupnosti 

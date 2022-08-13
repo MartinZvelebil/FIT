@@ -1,3 +1,0 @@
-/mnt/c/Users/marti/CLionProjects/hw02_tridy/cmake-build-debug/CMakeFiles/hw02_tridy.dir
-/mnt/c/Users/marti/CLionProjects/hw02_tridy/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/marti/CLionProjects/hw02_tridy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
