@@ -1,4 +1,0 @@
-<map id="CBomb" name="CBomb">
-<area shape="rect" id="node1" title="Class is responsible for bomb atributes, bomb handling and creating explosion (not handling the map c..." alt="" coords="12,95,81,121"/>
-<area shape="rect" id="node2" href="$classCPosition.html" title="Class representing positions of every character (players, enemies..)" alt="" coords="5,5,88,32"/>
-</map>

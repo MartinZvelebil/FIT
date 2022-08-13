@@ -1,4 +1,0 @@
-<map id="CMapContainer::RenderMap" name="CMapContainer::RenderMap">
-<area shape="rect" id="node1" title="Clears console and render map with changed data, also is responsible for colisions,..." alt="" coords="5,5,209,32"/>
-<area shape="rect" id="node2" href="$classCBlock.html#add32b563a6e910091af5a7a6710c92ca" title="Converts type of block to printable symbol." alt="" coords="257,5,421,32"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="CAIPlayer" name="CAIPlayer">
-<area shape="rect" id="node1" title="Class representing AI player." alt="" coords="5,80,91,107"/>
-<area shape="rect" id="node2" href="$classCEntity.html" title="Polymorphic class representing players/ghosts." alt="" coords="13,5,83,32"/>
-</map>

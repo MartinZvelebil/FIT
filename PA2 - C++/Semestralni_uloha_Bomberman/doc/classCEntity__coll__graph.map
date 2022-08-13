@@ -1,4 +1,0 @@
-<map id="CEntity" name="CEntity">
-<area shape="rect" id="node1" title="Polymorphic class representing players/ghosts." alt="" coords="12,95,81,121"/>
-<area shape="rect" id="node2" href="$classCPosition.html" title="Class representing positions of every character (players, enemies..)" alt="" coords="5,5,88,32"/>
-</map>

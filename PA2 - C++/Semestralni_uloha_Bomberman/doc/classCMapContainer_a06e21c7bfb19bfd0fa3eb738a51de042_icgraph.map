@@ -1,4 +1,0 @@
-<map id="CMapContainer::RenderMap" name="CMapContainer::RenderMap">
-<area shape="rect" id="node1" title="Clears console and render map with changed data, also is responsible for colisions,..." alt="" coords="228,5,432,32"/>
-<area shape="rect" id="node2" href="$classCMainMenu.html#ab969842c59bbaff6fbececc6b0c9b69a" title="Render main menu (start of game)" alt="" coords="5,5,180,32"/>
-</map>

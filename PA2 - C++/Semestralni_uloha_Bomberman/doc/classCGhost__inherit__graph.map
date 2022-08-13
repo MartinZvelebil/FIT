@@ -1,4 +1,0 @@
-<map id="CGhost" name="CGhost">
-<area shape="rect" id="node1" title="Represents ghosts." alt="" coords="5,80,75,107"/>
-<area shape="rect" id="node2" href="$classCEntity.html" title="Polymorphic class representing players/ghosts." alt="" coords="5,5,75,32"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="CBanner::PrintBannerBomberman" name="CBanner::PrintBannerBomberman">
-<area shape="rect" id="node1" title="Prints ASCII art BOMBERMAN (Font Slant) Credits to: https://patorjk.com/software/taag/#p=display&amp;f=Gr..." alt="" coords="228,5,469,32"/>
-<area shape="rect" id="node2" href="$classCMainMenu.html#ab969842c59bbaff6fbececc6b0c9b69a" title="Render main menu (start of game)" alt="" coords="5,5,180,32"/>
-</map>

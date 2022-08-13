@@ -1,7 +1,0 @@
-<map id="CAIPlayer::PlantBomb" name="CAIPlayer::PlantBomb">
-<area shape="rect" id="node1" title="Handle if planting bomb is possible and if so creates new bomb object, plants bomb." alt="" coords="5,107,169,134"/>
-<area shape="rect" id="node2" href="$classCPlayerStats.html#a1796be8dcae036167ed6a43f47907283" title=" " alt="" coords="219,5,414,47"/>
-<area shape="rect" id="node3" href="$classCPlayerStats.html#abf06e6632bb1fc9ea9e061ab1d08c588" title=" " alt="" coords="217,71,416,112"/>
-<area shape="rect" id="node4" href="$classCBomb.html#a6b5a166b777dffa8f504f19d01a887c9" title="Creating unique pointer on bomb, so I can keep pointers in vector in MapContainer." alt="" coords="247,137,386,163"/>
-<area shape="rect" id="node5" href="$classCPlayerStats.html#a69d3e8e42c4ad3a0a4ebc676c2202293" title="Returns AvailableBombs–, subtracts one bomb when user placed bomb." alt="" coords="229,187,404,214"/>
-</map>

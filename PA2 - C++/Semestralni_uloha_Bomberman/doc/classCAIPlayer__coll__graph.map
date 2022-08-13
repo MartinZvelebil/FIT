@@ -1,6 +1,0 @@
-<map id="CAIPlayer" name="CAIPlayer">
-<area shape="rect" id="node1" title="Class representing AI player." alt="" coords="60,184,145,211"/>
-<area shape="rect" id="node2" href="$classCEntity.html" title="Polymorphic class representing players/ghosts." alt="" coords="12,95,81,121"/>
-<area shape="rect" id="node3" href="$classCPosition.html" title="Class representing positions of every character (players, enemies..)" alt="" coords="5,5,88,32"/>
-<area shape="rect" id="node4" href="$classCPlayerStats.html" title="Represents stats of player." alt="" coords="106,95,211,121"/>
-</map>

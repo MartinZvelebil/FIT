@@ -1,4 +1,0 @@
-<map id="CAIPlayer::BFSPath" name="CAIPlayer::BFSPath">
-<area shape="rect" id="node1" title="Calculate BFS and move the best direction possible. It is working in different direction (finding pat..." alt="" coords="183,5,328,32"/>
-<area shape="rect" id="node2" href="$classCAIPlayer.html#a4a3b7d4cc43e3b3ded213ae191dfc70b" title="When AI changes position, this method manage it + is responsible for checking if the move is possible..." alt="" coords="5,5,135,32"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="CPlayer::GetChar" name="CPlayer::GetChar">
-<area shape="rect" id="node1" title="Function responsible for ncurses library (scanning user&#39;s input)" alt="" coords="169,5,303,32"/>
-<area shape="rect" id="node2" href="$classCPlayer.html#ac67ecebfb4b30f41a7f37dbc6eb7b874" title="When user changes position, this method manage it + is responsible for checking if the move is possib..." alt="" coords="5,5,121,32"/>
-</map>
