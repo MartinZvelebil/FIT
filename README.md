@@ -5,5 +5,5 @@ Also part of this repository is used as my portfolio for programming.
 
 ##### *DO NOT EVER COPY CODE FROM THIS REPOSITORY*
 
-###### *It can get you into real trouble, that may get you out from the school.*
+###### *It can get you into real trouble, that may get you out from the school...*
 
